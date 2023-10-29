@@ -1,0 +1,17 @@
+{
+  "name": "svelte-html-event",
+  "license": "MIT",
+  "repository": "ryoppippi/svelte-html-event",
+  "author": {
+    "name": "ryoppippi"
+  },
+  "types": "./index.d.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "svelte": "^4.2.2",
+    "typescript": "^5.0.0"
+  }
+}
