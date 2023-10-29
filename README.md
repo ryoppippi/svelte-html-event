@@ -3,13 +3,19 @@
 To install dependencies:
 
 ```bash
-bun install
+bun install svelte-html-event
 ```
 
-To run:
+# Usage
+```svelte
+<script lang="ts">
+function onClick(e: SvelteHTMLElementEvent<'button', 'on:click'>) {
+    console.log(e.detail);
+}
+</script>
 
-```bash
-bun run index.ts
+<button on:click={onClick}>Click me</button>
 ```
 
-This project was created using `bun init` in bun v1.0.7. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+# License
+MIT
