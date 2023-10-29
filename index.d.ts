@@ -22,7 +22,7 @@ type GetEventHandlers<T extends keyof SvelteHTMLElements> = Extract<
  *
  * @example
  *
- * type MyEvent = EventFor<"input", "on:change">; // Event & { currentTarget: EventTarget & HTMLInputElement }
+ * type MyEvent = SvelteHTMLElementEvent<"input", "on:change">; // Event & { currentTarget: EventTarget & HTMLInputElement }
  *
  */
 export type SvelteHTMLElementEvent<
