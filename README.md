@@ -21,6 +21,7 @@ function onClick(e: SvelteHTMLElementEvent<'button', 'on:click'>) {
 
 <button on:click={onClick}>Click me</button>
 ```
+![screenshot](https://github.com/ryoppippi/svelte-html-event/assets/1560508/fcfaec9a-dc51-41a4-be5c-7d177c3a9f47)
 
 Also, you can use [custom attributes](https://svelte.dev/docs/typescript#enhancing-built-in-dom-types) as well.  
 This is really useful when you use `use:` directive by some libraries like [svelte-dnd-action](https://github.com/isaacHagoel/svelte-dnd-action).
