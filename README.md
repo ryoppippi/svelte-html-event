@@ -1,5 +1,7 @@
 # svelte-html-event
 
+[![npm version](https://badgen.net/npm/v/svelte-html-event)](https://www.npmjs.com/package/svelte-html-event)
+
 A simple type function to get the correct event type for a Builtin HTML element in Svelte.
 
 To install dependencies:
