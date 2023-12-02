@@ -14,7 +14,7 @@ type Nullish<T> = T | null | undefined;
  */
 type GetEventHandlers<T extends keyof SvelteHTMLElements> = Extract<
 	keyof SvelteHTMLElements[T],
-	`on:${string}`
+	`on${string}`
 >;
 
 /**
